@@ -1,0 +1,44 @@
+{
+  "findData": [
+    {
+      "query": "说好不哭",
+      "display_query": "周杰伦《说好不哭》"
+    },
+    {
+      "query": "信誓蛋蛋",
+      "display_query": "B 站信誓蛋蛋"
+    },
+    {
+      "query": "NEX3",
+      "display_query": "vivo NEX 3 发布"
+    },
+    {
+      "query": "沙特石油",
+      "display_query": "沙特石油心脏被轰炸"
+    },
+    {
+      "query": "三吉彩花",
+      "display_query": "三吉彩花"
+    },
+    {
+      "query": "周琦",
+      "display_query": "央视批评周琦等球员"
+    },
+    {
+      "query": "盲盒",
+      "display_query": "买了停不下来的盲盒"
+    },
+    {
+      "query": "小智夺冠",
+      "display_query": "神奇宝贝小智夺冠"
+    },
+    {
+      "query": "emma离婚",
+      "display_query": "美妆博主 Oh Emma"
+    },
+    {
+      "query": "曹德旺",
+      "display_query": "美国工厂"
+    }
+  ]
+}

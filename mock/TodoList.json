@@ -1,24 +1,32 @@
 {
-  "List": [
+  "list": [
     {
       "text": "今天学习Vue基础",
-      "done": false
-    },
-    {
-      "text": "今天学习Spring基础",
-      "done": false
-    },
-    {
-      "text": "今天真好看",
-      "done": false
-    },
-    {
-      "text": "今天好冷",
       "done": true
     },
     {
-      "text": "Hello 你好",
+      "text": "今天学习Spring基础",
+      "done": true
+    },
+    {
+      "text": "今天做一套高数题",
       "done": false
+    },
+    {
+      "text": "今天跑两千米",
+      "done": false
+    },
+    {
+      "text": "今天读一本书",
+      "done": false
+    },
+    {
+      "text": "今天打一把游戏",
+      "done": true
+    },
+    {
+      "text": "今天看一场电影",
+      "done": true
     }
   ]
 }

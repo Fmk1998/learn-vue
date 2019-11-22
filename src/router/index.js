@@ -7,8 +7,8 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home,
+    name: 'login',
+    component: () => import(/* webpackChunkName: "login" */ '../views/login.vue'),
   },
   {
     path: '/about',
@@ -18,6 +18,27 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/todo',
+    name: 'todo',
+    component: () => import(/* webpackChunkName: "todo" */ '../views/Todo.vue'),
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: Home,
+  },
+  {
+    path: '/card',
+    name: 'card',
+    component: () => import(/* webpackChunkName: "card" */ '../views/Card.vue'),
+  },
+  {
+    path: '/zhuanlan',
+    name: 'zhuanlan',
+    component: () => import(/* webpackChunkName: "zhuanlan" */ '../views/Zhuanlan.vue'),
+  },
+
 ];
 
 const router = new VueRouter({
